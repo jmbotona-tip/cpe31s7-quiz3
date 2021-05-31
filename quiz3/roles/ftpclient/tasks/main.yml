@@ -1,0 +1,6 @@
+---
+# tasks file for roles/ftpclient
+- name: Install FTP Client
+  ansible.builtin.dnf:
+    name: lftp
+    state: latest
